@@ -1,0 +1,15 @@
+{
+    "name": "panos/test",
+    "description": "foo project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Panos Pan",
+            "email": "panos@almende.org"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+    }
+}
