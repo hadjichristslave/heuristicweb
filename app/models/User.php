@@ -33,7 +33,7 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
        var_dump(Input::all()); 
         $mail = new PHPMailer;
 
-    	$mail->SMTPDebug = 1;
+    	$mail->SMTPDebug = 3;
     	
     	$mail->isSMTP();    
     	$mail->Host = 'smtp.gmail.com';
