@@ -28,7 +28,7 @@
                         <a href="#contact">Contact</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="http://non-parametric.blogspot.nl/">Blog</a>
+                        <a href="http://non-parametric.blogspot.nl/" target="_blank">Blog</a>
                     </li>
 
                 </ul>
