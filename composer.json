@@ -6,7 +6,8 @@
     "require": {
         "laravel/framework": "4.2.*",
         "slave/dbtools": "dev-master",
-        "slave/validpack": "dev-master"
+        "slave/validpack": "dev-master",
+        "phpmailer/phpmailer": "~5.2"
     },
     "autoload": {
         "classmap": [

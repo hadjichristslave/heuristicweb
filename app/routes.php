@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -13,10 +12,12 @@
 
 Route::get('/', function()
 {
+    User::foo();
     return View::make('index');
 
 });
 
-Route::post("/email",function(){
-   return Engine::form(); 
+Route::any("mail",function(){
+    echo " there " ;
+    return User::foo();
 });
