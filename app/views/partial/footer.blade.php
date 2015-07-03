@@ -17,7 +17,7 @@
                                 <a href="https://plus.google.com/u/1/117352091835930355276/posts" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
                             </li>
                             <li>
-                                <a href="https://twitter.com/PHadjichristodo" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                                <a href="https://github.com/hadjichristslave" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
                             </li>
                             <li>
                                 <a href="https://www.linkedin.com/profile/view?id=284857752&trk=nav_responsive_tab_profile" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>

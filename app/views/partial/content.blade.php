@@ -12,7 +12,7 @@
                     <p>My name is Panos and I hold an MSc in Artificial intelligence. I am a machine learning specialist and a user experience enthusiast. This is my personal website where you can learn some things about me</p>
                 </div>
                 <div class="col-lg-4">
-                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                    <p>Here you will find mostly information from my academic background. You can also check my(heavy on statistics) blog and my github to see my projects. If you need any information I will be more than glad to answer any questions :).</p>
                 </div>
             </div>
         </div>
