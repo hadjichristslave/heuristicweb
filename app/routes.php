@@ -13,5 +13,7 @@
 
 Route::get('/', function()
 {
-	return View::make('hello');
+    User::all();
+    return View::make('hello')->with("data2","data");
+
 });
