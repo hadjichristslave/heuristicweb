@@ -26,5 +26,6 @@ $headers = "From: noreply@heuristicweb.com\n"; // This is the email address the 
 $headers .= "Reply-To: $email_address";	
 $headers .=    'X-Mailer: PHP/' . phpversion();
 mail($to,$email_subject,$email_body,$headers);
+echo "sent <br> ";
 return true;			
 ?>
