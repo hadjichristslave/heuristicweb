@@ -16,7 +16,8 @@ class CreateTables extends Migration {
         Schema::create('users', function($table)
         {
             $table->increments('id');
-            $table->text('description');
+            $table->text('name');
+            $table->text('password');
         });
 	}
 

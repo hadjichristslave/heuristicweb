@@ -15,7 +15,8 @@ class Populate extends Migration {
         //
         DB::table('users')->insert(
             array(
-                'description' => 'foo text goes here'
+                'name' => 'Panos',
+                'password' => '?????'
             )
         );
     }
