@@ -17,6 +17,7 @@ Route::get('/', function()
 
 });
 
-Route::any("mail",function(){
+Route::get("mail",function(){
     return User::foo();
 });
+
