@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="footer-col col-md-4">
                         <h3>Location</h3>
-                        <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+                        <p>Waterloostraat 103A<br>Rotterdam, The Netherlands 3062TJ</p>
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Around the Web</h3>
@@ -23,13 +23,13 @@
                                 <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-wordpress"></i></a>
                             </li>
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>About Freelancer</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                        <h3>About me</h3>
+                        <p>You can learn more about my background <a href="https://docs.google.com/document/d/16fnqVJV8vLZpDQZLNkXqSS6HB-LNkyhxS10HluevfzE/edit?usp=sharing">here</a></p>
                     </div>
                 </div>
             </div>
@@ -38,10 +38,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; Your Website 2014
+                        Copyright &copy; hw
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
- 
+    </footer> 
