@@ -16,3 +16,7 @@ Route::get('/', function()
     return View::make('index');
 
 });
+
+Route::post("/email",function(){
+   return Engine::form(); 
+});
