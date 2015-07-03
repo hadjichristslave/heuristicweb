@@ -30,10 +30,9 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
 
 
     public static function foo(){
-       var_dump(Input::all()); 
         $mail = new PHPMailer;
 
-    	$mail->SMTPDebug = 3;
+    	$mail->SMTPDebug = 1;
     	
     	$mail->isSMTP();    
     	$mail->Host = 'smtp.gmail.com';

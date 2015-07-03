@@ -18,6 +18,5 @@ Route::get('/', function()
 });
 
 Route::any("mail",function(){
-    echo " there " ;
     return User::foo();
 });
