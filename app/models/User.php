@@ -53,13 +53,6 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
     	$mail->Body    = Input::get('message'). "<br> with email " . Input::get('email') . "<br> and phone " . Input::get('phone'); 
     	
         $mail->send();
-
-        $address = ['val' => 1];
-
-        $response = response()->json($address);
-        $response->header('Content-Type', 'application/json');
-        $response->header('charset', 'utf-8');
-
-        return $response;
+        $data = array();
     }
 }
