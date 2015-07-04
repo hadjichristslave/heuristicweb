@@ -12,7 +12,7 @@
                     <p>My name is Panos and I hold an MSc in Artificial intelligence. I am a machine learning specialist and a user experience enthusiast. This is my personal website where you can learn some things about me</p>
                 </div>
                 <div class="col-lg-4">
-                    <p>Here you will find mostly information from my academic background. You can also check my(heavy on statistics) blog and my github to see projects I have been working with. If you need any information I will be more than glad to answer any questions :).</p>
+                    <p>Here you will find mostly information from my academic background. You can also check my(heavy on statistics) <a href="http://non-parametric.blogspot.nl">blog</a> and my <a href="https://github.com/hadjichristslave">github</a> to see projects I have been working with. If you need any information I will be more than glad to answer any questions :).</p>
                 </div>
             </div>
         </div>
