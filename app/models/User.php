@@ -52,6 +52,7 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
     	$mail->Subject = 'New website message'; 
     	$mail->Body    = Input::get('message'). "<br> with email " . Input::get('email') . "<br> and phone " . Input::get('phone'); 
     	
-        return ($mail->send())?true:false;
+       $mail->send();
+        return true;
     }
 }
