@@ -19,6 +19,5 @@ Route::get('/', function()
 Route::get("/mail/send",function(){
     User::foo();
     return Response::json(array('name' => 'Steve', 'state' => 'CA'));
-
 });
 
