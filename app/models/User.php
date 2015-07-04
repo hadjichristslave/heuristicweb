@@ -38,7 +38,7 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
     	$mail->Host = 'smtp.gmail.com';
     	$mail->SMTPAuth = true;
     	$mail->Username = 'kagourasph@gmail.com';
-    	$mail->Password = '!@#k4m12k13p17#@!';
+    	$mail->Password = '1234!@#$aA';
     	$mail->SMTPSecure = 'ssl';
     	$mail->Port = 465;
     	
