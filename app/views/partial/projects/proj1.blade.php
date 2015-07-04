@@ -5,7 +5,7 @@
                             <h2>Master thesis</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/cabin2.png" class="img-responsive img-centered" alt="">
-                            <p>I did my master thesis <a href="https://dobots.nl/">@Dobots</a> under the supervision of Anne Van Rossum from the company side and Rico Mockel and Kurt Driessens from my University. I worked on non parametric Bayesian methods and how such tools can be used to improve existing mapping algorithms. If you want more information on what my thesis is about, check out my SMC repository at github!</p>
+                            <p>I did my master thesis <a href="https://dobots.nl/">@Dobots</a> under the supervision of Anne Van Rossum from the company side and Rico Mockel and Kurt Driessens from my University. I worked on non parametric Bayesian methods and how such tools can be used to improve existing mapping algorithms. If you want more information on what my thesis is about, check out my SMC repository at <a href="https://github.com/hadjichristslave/SMC">github</a>!</p>
                             <ul class="list-inline item-details">
                                 <li>At:
                                     <strong>Dobots
