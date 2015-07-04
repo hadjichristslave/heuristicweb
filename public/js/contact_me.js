@@ -22,7 +22,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "http://heuristicweb.herokuapp.com/mail/send"
+                url: "http://heuristicweb.herokuapp.com/mail/send",
                 type: "GET",
                 data: {
                     name: name,
