@@ -8,7 +8,7 @@ $(function() {
         submitSuccess: function($form, event) {
             // Prevent spam click and default submit behaviour
             $("#btnSubmit").attr("disabled", true);
-            event.defaultPrevented();
+            event.preventDefault();
             alert('gothere');
             
             // get values from FORM
