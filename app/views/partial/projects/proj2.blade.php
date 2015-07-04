@@ -5,7 +5,7 @@
                             <h2>Hexdame mania</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
-                            <p>On this fun project a Hexdame game and the required AI were implemented. None of the fun stuff were left out of the search methods. Alpha beta pruning with iterative deepening and hash trees to increase the speed of the method. More information can be found in github :)</p>
+                            <p>On this fun project a Hexdame game and the required AI to autonomously play the game were implemented. None of the fun stuff were left out of the search methods. Alpha beta pruning with iterative deepening and hash trees to increase the speed of the method. More information can be found in github :)</p>
                             <ul class="list-inline item-details">
                                 <li>At:
                                     <strong> University of Maastricht
