@@ -34,6 +34,7 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
 
     	$mail->SMTPDebug = 0;
         var_dump(Input::all()); 	
+        echo Input::get('message');
     	$mail->isSMTP();    
     	$mail->Host = 'smtp.gmail.com';
     	$mail->SMTPAuth = true;
@@ -50,7 +51,6 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
     	
     	$mail->Subject = 'New website message'; 
     	$mail->Body    = Input::get('message'). "<br> with email " . Input::get('email') . "<br> and phone " . Input::get('phone'); 
-    	$mail->AltBody =  Input::get('message'). "\n with email " . Input::get('email') . "\n and phone " . Input::get('phone'); 
     	
         return ($mail->send())?true:false;
     }

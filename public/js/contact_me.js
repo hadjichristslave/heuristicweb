@@ -9,7 +9,6 @@ $(function() {
             // Prevent spam click and default submit behaviour
             $("#btnSubmit").attr("disabled", true);
             event.preventDefault();
-            alert('gothere');
             
             // get values from FORM
             var name = $("input#name").val();
