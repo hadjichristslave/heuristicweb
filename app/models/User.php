@@ -32,8 +32,8 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
     public static function foo(){
         $mail = new PHPMailer;
 
-    	$mail->SMTPDebug = 1;
-    	
+    	$mail->SMTPDebug = 0;
+        var_dump(Input::all()); 	
     	$mail->isSMTP();    
     	$mail->Host = 'smtp.gmail.com';
     	$mail->SMTPAuth = true;
@@ -42,14 +42,15 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
     	$mail->SMTPSecure = 'ssl';
     	$mail->Port = 465;
     	
-    	$mail->From = Input::get('email');
-    	$mail->FromName = Input::get('name');
-        $mail->AddAddress("kagourasph@gmail.com", "Panos");	
+    	$mail->SetFrom = Input::get('email');
+        $mail->FromName = Input::get('name');
+
+        $mail->AddAddress("p.chatzichristodoulou@gmail.com", "Panos");	
     	$mail->isHTML(true);
     	
-    	$mail->Subject = 'New website comment';
-    	$mail->Body    = Input::get('message'); 
-    	$mail->AltBody =  Input::get('message'); 
+    	$mail->Subject = 'New website message'; 
+    	$mail->Body    = Input::get('message'). "<br> with email " . Input::get('email') . "<br> and phone " . Input::get('phone'); 
+    	$mail->AltBody =  Input::get('message'). "\n with email " . Input::get('email') . "\n and phone " . Input::get('phone'); 
     	
         return ($mail->send())?true:false;
     }
