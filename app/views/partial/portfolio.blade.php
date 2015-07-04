@@ -15,7 +15,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/cabin2.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -25,7 +25,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/cake.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/game.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -35,10 +35,10 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/circus.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/circus2.png" class="img-responsive" alt="">
                     </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
+            </div>
+<!--            <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -67,7 +67,7 @@
                         </div>
                         <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
                     </a>
-                </div>
+                </div>-->
             </div>
         </div>
     </section>

@@ -38,7 +38,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; hw
+                        Copyright &copy; heuristicweb 2015. Powered by <a href="http://laravel.com/">Laravel</a>
                     </div>
                 </div>
             </div>
