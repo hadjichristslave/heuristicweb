@@ -12,7 +12,6 @@
 
 Route::get('/', function()
 {
-    User::foo();
     return View::make('index');
 
 });
