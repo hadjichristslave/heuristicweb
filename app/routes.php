@@ -17,8 +17,6 @@ Route::get('/', function()
 });
 
 Route::get("/mail/send",function(){
-    User::foo();
-    echo 'true';
-    return true;
+    return User::foo();
 });
 
